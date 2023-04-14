@@ -1,0 +1,64 @@
+************ Start Display Current Environment ************
+Host Operating System is Windows 11, version 10.0
+Java version = 1.8.0_351, Java Runtime Version = 8.0.7.20 - pwa6480sr7fp20-20221020_01(SR7 FP20), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = C:\WAS855ND
+user.install.root = C:\WAS855ND\profiles\AppSrv01
+Java Home = C:\WAS855ND\java\jre
+ws.ext.dirs = C:\\WAS855ND\\java\\lib;C:\\WAS855ND\\classes;C:\\WAS855ND\\lib;C:\\WAS855ND\\installedChannels;C:\\WAS855ND\\lib\\ext;C:\\WAS855ND\\web\\help;C:\\WAS855ND\\deploytool\\itp\\plugins\\com.ibm.etools.ejbdeploy\\runtime
+Classpath = C:\WAS855ND\profiles\AppSrv01\properties;C:\WAS855ND\properties;C:\WAS855ND\lib\startup.jar;C:\WAS855ND\lib\bootstrap.jar;C:\WAS855ND/lib/lmproxy.jar;C:\WAS855ND/lib/urlprotocols.jar;C:\WAS855ND\java\lib\tools.jar
+Java Library path = C:\WAS855ND\java\jre\bin\compressedrefs;C:\WAS855ND\java\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WAS855ND\lib\native\win\x86_64;C:\WAS855ND\bin;C:\WAS855ND\java\bin;C:\WAS855ND\java\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git LFS;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IBM\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Program Files\Microsoft VS Code\bin;C:\Users\HirokoTakamiya\AppData\Local\Microsoft\WindowsApps;C:\MyJDKs\IBMSDKs\ibm-java-sdk-80-win-x86_64\sdk\bin;C:\bin;C:\MyTools\emacs\emacs-22.3\bin;C:\MyTools\apache-ant-1.8.4\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\bin;C:\Users\HirokoTakamiya\AppData\Local\Microsoft\WindowsApps;C:\Program Files\RedHat\Podman;C:\Users\HirokoTakamiya\AppData\Local\Box\Box Edit\;.
+Orb Version = IBM Java ORB build orb80-20220902.00
+Max file descriptor count = --
+Current trace specification = *=info:com.ibm.*=all
+************* End Display Current Environment *************
+[4/14/23 17:50:01:237 EDT] 00000001 ManagerAdmin  I   TRAS0017I: The startup trace state is *=info:com.ibm.*=all.
+[4/14/23 17:50:01:237 EDT] 00000001 WsServerContr 1   Executing executeUtilityOnWindows with args: C:\WAS855ND\profiles\AppSrv01\config DESKTOP-BBBKTCUNode01Cell DESKTOP-BBBKTCUNode01 server1 
+[4/14/23 17:50:01:237 EDT] 00000001 WsServerContr 1   Getting WindowsService obj with: server1 and C:\WAS855ND\profiles\AppSrv01\config DESKTOP-BBBKTCUNode01Cell DESKTOP-BBBKTCUNode01 server1 
+[4/14/23 17:50:01:253 EDT] 00000001 WindowsServic >  WindowsService for server server1 Entry
+                                 <null>
+[4/14/23 17:50:01:253 EDT] 00000001 WindowsServic >  getWindowsServiceNameForServer server1 Entry
+                                 <null>
+[4/14/23 17:50:01:253 EDT] 00000001 WindowsServic >  getWASServiceCmdPath  Entry
+                                 <null>
+[4/14/23 17:50:01:253 EDT] 00000001 WindowsServic 1   In executeCommand, args are: C:\WAS855ND\bin\WASService.exe -getServiceName server1 -profilePath C:\WAS855ND\profiles\AppSrv01 
+[4/14/23 17:50:01:253 EDT] 00000001 WindowsServic 1   Runtime.exec() returned process java.lang.ProcessImpl@6ebcbc52
+[4/14/23 17:50:01:304 EDT] 0000001e WindowsServic 3   inputRec == IBMWAS85Service - DESKTOP-BBBKTCUNode01
+[4/14/23 17:50:01:305 EDT] 00000001 WindowsServic 1   retCode from childProcess.waitFor() is 0
+[4/14/23 17:50:01:305 EDT] 00000001 WindowsServic I   ADMU7714I: WASService command for server server1 completed successfully.
+[4/14/23 17:50:01:306 EDT] 00000001 WindowsServic 3   exitCode = 0
+[4/14/23 17:50:02:317 EDT] 00000001 WindowsServic <  getWindowsServiceNameForServer Exit
+[4/14/23 17:50:02:317 EDT] 00000001 WindowsServic 1   Trying to new up WindowsService using serverName=server1, winServiceName=DESKTOP-BBBKTCUNode01
+[4/14/23 17:50:02:317 EDT] 00000001 WindowsServic >  getServiceLogName for server1 Entry
+[4/14/23 17:50:02:317 EDT] 00000001 WindowsServic >  getWASServiceCmdPath  Entry
+                                 <null>
+[4/14/23 17:50:02:317 EDT] 00000001 WindowsServic 1   In executeCommand, args are: C:\WAS855ND\bin\WASService.exe -getServiceLogName server1 -profilePath C:\WAS855ND\profiles\AppSrv01 
+[4/14/23 17:50:02:324 EDT] 00000001 WindowsServic 1   Runtime.exec() returned process java.lang.ProcessImpl@c6d28d63
+[4/14/23 17:50:02:349 EDT] 00000020 WindowsServic 3   inputRec == C:\WAS855ND\profiles\AppSrv01\logs\DESKTOP-BBBKTCUNode01_Service.log
+[4/14/23 17:50:02:365 EDT] 00000001 WindowsServic 1   retCode from childProcess.waitFor() is 0
+[4/14/23 17:50:02:365 EDT] 00000001 WindowsServic I   ADMU7714I: WASService command for server server1 completed successfully.
+[4/14/23 17:50:02:365 EDT] 00000001 WindowsServic 3   exitCode = 0
+[4/14/23 17:50:03:367 EDT] 00000001 WindowsServic <  getServiceLogName Exit
+[4/14/23 17:50:03:367 EDT] 00000001 WindowsServic <  WindowsService Exit
+[4/14/23 17:50:03:367 EDT] 00000001 WindowsServic >  getServiceStatus Entry
+[4/14/23 17:50:03:367 EDT] 00000001 WindowsServic >  getWASServiceCmdPath  Entry
+                                 <null>
+[4/14/23 17:50:03:367 EDT] 00000001 WindowsServic 1   In executeCommand, args are: C:\WAS855ND\bin\WASService.exe -status DESKTOP-BBBKTCUNode01 
+[4/14/23 17:50:03:367 EDT] 00000001 WindowsServic 1   Runtime.exec() returned process java.lang.ProcessImpl@34c3c3de
+[4/14/23 17:50:03:399 EDT] 00000022 WindowsServic 3   inputRec == . Return value (6): Meaning: The handle is invalid.
+[4/14/23 17:50:03:399 EDT] 00000022 WindowsServic 3   inputRec == 
+[4/14/23 17:50:03:399 EDT] 00000022 WindowsServic 3   inputRec == 
+[4/14/23 17:50:03:399 EDT] 00000022 WindowsServic 3   inputRec == 
+[4/14/23 17:50:03:399 EDT] 00000022 WindowsServic 3   inputRec == WASService: WASService or the calling program must be run with Administrator privileges.
+[4/14/23 17:50:03:399 EDT] 00000022 WindowsServic 3   inputRec == 
+[4/14/23 17:50:03:399 EDT] 00000001 WindowsServic 1   retCode from childProcess.waitFor() is 3
+[4/14/23 17:50:03:399 EDT] 00000001 WindowsServic E   ADMU7713E: WASService command for server server1 failed. Unexpected exit code 3 from running C:\WAS855ND\bin\WASService.exe -status DESKTOP-BBBKTCUNode01 .
+[4/14/23 17:50:03:399 EDT] 00000001 WindowsServic 3   exitCode = 3
+[4/14/23 17:50:03:399 EDT] 00000001 WindowsServic <  getServiceStatus Exit
+[4/14/23 17:50:03:399 EDT] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info.
+[4/14/23 17:50:03:493 EDT] 00000001 AdminTool     A   ADMU0128I: Starting tool with the AppSrv01 profile
+[4/14/23 17:50:03:509 EDT] 00000001 AdminTool     A   ADMU3100I: Reading configuration for server: server1
+[4/14/23 17:50:03:518 EDT] 00000001 ImplFactory   W   WSVR0072W: Ignoring undeclared override of interface, com.ibm.websphere.cluster.topography.DescriptionManager, with implementation, com.ibm.ws.cluster.propagation.bulletinboard.BBDescriptionManager
+[4/14/23 17:50:03:697 EDT] 00000001 ModelMgr      I   WSVR0801I: Initializing all server configuration models
+[4/14/23 17:50:07:025 EDT] 00000001 WorkSpaceMana A   WKSP0500I: Workspace configuration consistency check is disabled.
+[4/14/23 17:50:13:482 EDT] 00000001 AdminTool     A   ADMU3200I: Server launched. Waiting for initialization status.
+[4/14/23 17:50:48:826 EDT] 00000001 AdminTool     A   ADMU3000I: Server server1 open for e-business; process id is 15724

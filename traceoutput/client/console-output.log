@@ -1,0 +1,26 @@
+C:\Users\HirokoTakamiya\Downloads\ws_jaas_test>c:/WAS855ND/java/bin/java -classpath .;c:/WAS855ND/runtimes/com.ibm.ws.ejb.thinclient_8.5.0.jar;c:c:/WAS855ND/runtimes/com.ibm.ws.orb_8.5.0.jar; -Dcom.ibm.ws.orb.transport.alwaysResolveHostIP=true  -Dcom.ibm.CORBA.ConfigURL="file:c:\WAS855ND\profiles\AppSrv01\properties\sas.client.props" -Dcom.ibm.SSL.ConfigURL="file:c:\WAS855ND\profiles\AppSrv01\properties\ssl.client.props" -DtraceSettingsFile=TraceSettings.properties test.WsJaasTestClient
+Try my machine localhost:2809
+2023-04-14T17:52:30.130
+Trying 0 times
+Getting LoginContext
+user=websphereadmin
+Calling getSubject
+Subject=Subject:
+        Principal: <default>/websphereadmin
+        Public Credential: com.ibm.ws.security.auth.WSCredentialImpl@46544a08
+
+Calling Subject.doAs()
+Entering getNewInitialContext providerUrl=corbaloc::localhost:2809
+Ignoring the Exception
+Trying 2 times
+Getting LoginContext
+user=websphereadmin
+Calling getSubject
+Subject=Subject:
+        Principal: <default>/websphereadmin
+        Public Credential: com.ibm.ws.security.auth.WSCredentialImpl@a75a3929
+
+Calling Subject.doAs()
+Entering getNewInitialContext providerUrl=corbaloc::localhost:2809
+Ignoring the Exception
+2023-04-14T17:52:35.270

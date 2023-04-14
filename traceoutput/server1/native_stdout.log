@@ -1,0 +1,18 @@
+[4/14/23 17:50:15:520 EDT] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:com.ibm.ws.security.*=all:com.ibm.websphere.security.*=all:SSL=all:SASRas=all:ORBRas=all.
+[4/14/23 17:50:15:677 EDT] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: com.ibm.ws.security.*=all:com.ibm.websphere.security.*=all:SSL=all:SASRas=all:ORBRas=all Ignore this message if the trace specifications com.ibm.ws.security.*=all:com.ibm.websphere.security.*=all:SSL=all:SASRas=all:ORBRas=all are valid.
+[4/14/23 17:50:15:685 EDT] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[4/14/23 17:50:15:701 EDT] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@7adfaa3e
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.23 [ND 8.5.5.23 cf232303.01] running with process name DESKTOP-BBBKTCUNode01Cell\DESKTOP-BBBKTCUNode01\server1 and process id 15724
+Full server name is DESKTOP-BBBKTCUNode01Cell\DESKTOP-BBBKTCUNode01\server1-15724
+Host Operating System is Windows 11, version 10.0
+Java version = 1.8.0_351, Java Runtime Version = 8.0.7.20 - pwa6480sr7fp20-20221020_01(SR7 FP20), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = C:\WAS855ND
+user.install.root = C:\WAS855ND\profiles\AppSrv01
+Java Home = C:\WAS855ND\java\jre
+ws.ext.dirs = C:\WAS855ND/java/lib;C:\WAS855ND\profiles\AppSrv01/classes;C:\WAS855ND/classes;C:\WAS855ND/lib;C:\WAS855ND/installedChannels;C:\WAS855ND/lib/ext;C:\WAS855ND/web/help;C:\WAS855ND/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = C:\WAS855ND\profiles\AppSrv01/properties;C:\WAS855ND/properties;C:\WAS855ND/lib/startup.jar;C:\WAS855ND/lib/bootstrap.jar;C:\WAS855ND/lib/lmproxy.jar;C:\WAS855ND/lib/urlprotocols.jar;C:\WAS855ND/deploytool/itp/batchboot.jar;C:\WAS855ND/deploytool/itp/batch2.jar;C:\WAS855ND/java/lib/tools.jar
+Java Library path = C:\WAS855ND/lib/native/win/x86_64/;C:\WAS855ND\java\jre\bin\compressedrefs;C:\WAS855ND\java\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WAS855ND\lib\native\win\x86_64;C:\WAS855ND\bin;C:\WAS855ND\java\bin;C:\WAS855ND\java\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git LFS;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IBM\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Program Files\Microsoft VS Code\bin;C:\Users\HirokoTakamiya\AppData\Local\Microsoft\WindowsApps;C:\MyJDKs\IBMSDKs\ibm-java-sdk-80-win-x86_64\sdk\bin;C:\bin;C:\MyTools\emacs\emacs-22.3\bin;C:\MyTools\apache-ant-1.8.4\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\bin;C:\Users\HirokoTakamiya\AppData\Local\Microsoft\WindowsApps;C:\Program Files\RedHat\Podman;C:\Users\HirokoTakamiya\AppData\Local\Box\Box Edit\;.;
+Orb Version = IBM Java ORB build orb80-20220902.00
+Max file descriptor count = --
+************* End Display Current Environment *************
