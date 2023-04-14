@@ -49,12 +49,15 @@ public class WsJaasTestClient implements PrivilegedExceptionAction<Object> {
 	}
 
 	protected String getUser() {
-		System.out.println("user=websphereadmin");
-		return "websphereadmin";
+		String user = "Admin"; 
+		System.out.println("Returning user=" + user); 
+		return user;
 	}
 
 	protected String getPassword() {
-		return "W38sphere!";
+		String password = ""; 
+		System.out.println("Returning password=" + password); 
+		return password;
 	}
 
 	protected String getUrl() {
