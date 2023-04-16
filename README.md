@@ -79,9 +79,9 @@ test.WsJaasTestClient
 - [server1 log directory](https://github.com/una-tapa/ws_jaas_test/tree/main/traceoutput/server1)
 
 
-## TODO
-- Make the calls multithreaded
-- Update the program to take the parameters (or input file)
+## MultiThreaded Request 
+
+Please see `compile2.cmd` and `run2.cmd` to run multiThreaded requests (10 threads). 
 
 ## Notes
 
