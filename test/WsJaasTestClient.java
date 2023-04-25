@@ -35,7 +35,7 @@ public class WsJaasTestClient implements PrivilegedExceptionAction<Object> {
 		System.out.println(currentTime);
 		for (int i=0; i < 3; i++) {   //Tried 100 times, no luck
 		    try {
-			System.out.println("Trying " + (i++) + " times"); 
+			System.out.println("Trying " + i + " times"); 
 			ejbHome = new WsJaasTestClient().doWork();
 			System.out.println("ejbHome=" + ejbHome);
 		    }
